@@ -5,7 +5,7 @@
 #else
 #include <OpenGL/gl.h>
 #endif
-#include <SDL/SDL.h>
+#include <SDL.h>
 #include <apollo/Utilities/RNG.h>
 #include <apollo/Graphics/ParticleSystem.h>
 #include <list>

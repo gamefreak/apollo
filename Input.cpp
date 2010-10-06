@@ -1,8 +1,8 @@
 #include <apollo/Input.h>
 #include <apollo/Utilities/GameTime.h>
 
-#include <SDL/SDL.h>
-#include <SDL/SDL_OpenGL.h>
+#include <SDL.h>
+#include <SDL_OpenGL.h>
 
 #include <queue>
 

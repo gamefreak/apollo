@@ -1,5 +1,5 @@
 #include <apollo/Modes/ModeManager.h>
-#include <SDL/SDL.h>
+#include <SDL.h>
 #include <apollo/Input.h>
 
 #include <apollo/Logging.h>

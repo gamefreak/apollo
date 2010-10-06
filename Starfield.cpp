@@ -1,11 +1,10 @@
 #ifdef WIN32
-#include <SDL/SDL_image.h>
 #include <GL/glu.h>
 #else
-#include <SDL/SDL_image.h>
 #include <OpenGL/glu.h>
 #endif
 
+#include <SDL_image.h>
 #include <apollo/Apollo.h>
 #include <apollo/Graphics/Starfield.h>
 #include <string>

@@ -2,13 +2,12 @@
 
 #ifdef WIN32
 #include <gl/gl.h>
-#include <SDL/SDL_ttf.h>
 #else
 #include <OpenGL/gl.h>
-#include <SDL/SDL_ttf.h>
 #endif
 
-#include <SDL/SDL.h>
+#include <SDL.h>
+#include <SDL_ttf.h>
 
 #include <apollo/Apollo.h>
 #include <map>

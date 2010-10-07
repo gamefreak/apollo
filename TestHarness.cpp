@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <apollo/Scripting/Scripting.h>
 #include <apollo/Utilities/TestHarness.h>
 

@@ -3,7 +3,7 @@
  @brief ENet callback functions
 */
 #define ENET_BUILDING_LIB 1
-#include "enetadapt.h"
+#include "eNetAdapt.h"
 
 static ENetCallbacks callbacks = { malloc, free, rand };
 

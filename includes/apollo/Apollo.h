@@ -9,7 +9,7 @@
 
 #include <assert.h>
 
-#include <SDL/SDL.h>
+#include <SDL.h>
 
 #include "Logging.h"
 #include "Utilities/Colour.h"
@@ -27,7 +27,7 @@
 #include "Scripting/Compile.h"
 #include "Sound/Sound.h"
 #include "Preferences.h"
-#include "enetadapt.h"
+#include "eNetAdapt.h"
 
 extern "C"
 {

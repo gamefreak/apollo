@@ -2,7 +2,7 @@
 #include <apollo/Utilities/GameTime.h>
 
 #include <SDL.h>
-#include <SDL_OpenGL.h>
+#include <SDL_opengl.h>
 
 #include <queue>
 

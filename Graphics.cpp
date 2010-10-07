@@ -1,10 +1,10 @@
 #ifdef WIN32
-#include <gl/gl.h>
 #define _USE_MATH_DEFINES
 #include <cmath>
-#else
-#include <OpenGL/gl.h>
 #endif
+
+#include <apollo/Graphics/opengl.h>
+
 #include <SDL.h>
 #include <apollo/Utilities/RNG.h>
 #include <apollo/Graphics/ParticleSystem.h>

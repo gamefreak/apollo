@@ -1,8 +1,4 @@
-#ifdef WIN32
-#include <GL/glu.h>
-#else
-#include <OpenGL/glu.h>
-#endif
+#include <apollo/Graphics/glu.h>
 
 #include <SDL_image.h>
 #include <apollo/Apollo.h>

@@ -1,15 +1,9 @@
 #ifndef __apollo_graphics_spritesheet_h
 #define __apollo_graphics_spritesheet_h
 
-#ifdef WIN32
-#include <gl/gl.h>
-#include <SDL/SDL_image.h>
-#else
-#include <OpenGL/gl.h>
-#include <SDL/SDL_image.h>
-#endif
-
-#include <SDL/SDL.h>
+#include <SDL.h>
+#include <SDL_image.h>
+#include <apollo/Graphics/opengl.h>
 #include <apollo/Utilities/Vec2.h>
 #include <string>
 

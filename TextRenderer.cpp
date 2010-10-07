@@ -1,11 +1,6 @@
 #include <apollo/Graphics/TextRenderer.h>
 
-#ifdef WIN32
-#include <gl/gl.h>
-#else
-#include <OpenGL/gl.h>
-#endif
-
+#include <apollo/Graphics/opengl.h>
 #include <SDL.h>
 #include <SDL_ttf.h>
 

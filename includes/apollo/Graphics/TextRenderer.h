@@ -2,11 +2,7 @@
 #define __apollo_graphics_text_renderer_h
 
 #include <string>
-#ifdef WIN32
-#include <gl/gl.h>
-#else
-#include <OpenGL/gl.h>
-#endif
+#include <apollo/Graphics/opengl.h>
 #include <apollo/Utilities/Vec2.h>
 
 namespace Graphics

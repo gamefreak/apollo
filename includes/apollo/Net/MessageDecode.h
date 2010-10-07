@@ -1,5 +1,5 @@
 #include "Net.h"
-#include "enetadapt.h"
+#include "eNetAdapt.h"
 
 namespace Net
 {

@@ -2,9 +2,9 @@
 #define __apollo_graphics_image_loader_h
 
 #include <apollo/Apollo.h>
-#include <OpenGL/gl.h>
-#include <SDL/SDL.h>
-#include <SDL/SDL_image.h>
+#include <apollo/Graphics/opengl.h>
+#include <SDL.h>
+#include <SDL_image.h>
 
 namespace Graphics
 {

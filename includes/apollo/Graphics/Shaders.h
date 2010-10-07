@@ -2,7 +2,7 @@
 #define __xsera_graphics_shaders_h
 
 #include <string>
-#include <OpenGL/gl.h>
+#include <apollo/Graphics/opengl.h>
 
 namespace Graphics
 {

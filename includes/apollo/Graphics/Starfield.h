@@ -3,11 +3,7 @@
 
 #include <apollo/Utilities/Vec2.h>
 #include <string>
-#ifdef WIN32
-#include <gl/gl.h>
-#else
-#include <OpenGL/gl.h>
-#endif
+#include <apollo/Graphics/opengl.h>
 
 namespace Graphics
 {

@@ -47,6 +47,7 @@ SET(APOLLO_HEADERS
 	./includes/apollo/Graphics/ImageLoader.h
 	./includes/apollo/Graphics/Starfield.h
 	./includes/apollo/Graphics/Object3D.h
+	./includes/apollo/Graphics/opengl.h
 	)
 
 SET(APOLLO_SOURCE

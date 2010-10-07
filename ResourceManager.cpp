@@ -216,11 +216,11 @@ void Init ( const std::string& appname )
 	char appShareDirectory[1024];
 	sprintf(userDirectory, "%s/.%s", getenv("HOME"), appname.c_str());
 	CreateDirectoryWithIntermediates(userDirectory);
-	getcwd(currentDirectory);
+	getcwd(currentDirectory, 1024);
 	sprintf(appShareDirectory, "/usr/share/%s", appname.c_str());
 	searchDomains.push_back(new ResourceDomainFilesystem(userDirectory));
 	searchDomains.push_back(new ResourceDomainFilesystem(currentDirectory));
-	searchDomains.push_back(new ResourceDomainFilesystem(shareDirectory));
+	searchDomains.push_back(new ResourceDomainFilesystem(appShareDirectory));
 #endif
 	mutex = SDL_CreateMutex();
 }
